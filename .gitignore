@@ -1,0 +1,54 @@
+# Node.js / frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp/
+frontend/.pnp.js
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Backend / PHP
+backend/vendor/
+backend/.env
+backend/.env.local
+backend/.env.*
+backend/composer.lock
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# XAMPP / local server files
+xamppfiles/
+phpunit.xml.cache
+
+# Build / temp
+coverage/
+build/
+dist/
+.tmp/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
